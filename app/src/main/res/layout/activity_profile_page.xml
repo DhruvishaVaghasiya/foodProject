@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/_15sdp"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/_15sdp"
+    tools:context=".ProfilePageActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:drawableLeft="@drawable/arrow_icon"
+        android:gravity="end"
+        android:drawableRight="@drawable/checkicon"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/proFilePic"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:src="@drawable/women"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/changeProFilePic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:textColor="#0F66AC"
+        android:text="Change Profile Photo"/>
+
+    <EditText
+        android:id="@+id/NameEdt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:hint="Name"
+        android:background="@drawable/edtbg_layout"
+        android:drawableTint="#716D6C"
+        android:paddingRight="@dimen/_75sdp"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:paddingLeft="@dimen/_10sdp"/>
+
+    <EditText
+        android:id="@+id/UrNameEdt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:hint="Username"
+        android:background="@drawable/edtbg_layout"
+        android:drawableTint="#716D6C"
+        android:paddingRight="@dimen/_75sdp"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:paddingLeft="@dimen/_10sdp"/>
+
+    <EditText
+        android:id="@+id/EmailEdt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:hint="Email address "
+        android:background="@drawable/edtbg_layout"
+        android:drawableTint="#716D6C"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:paddingRight="@dimen/_75sdp"
+        android:paddingLeft="@dimen/_10sdp"/>
+
+    <EditText
+        android:id="@+id/PnumEdt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:hint="Phone number"
+        android:background="@drawable/edtbg_layout"
+        android:drawableTint="#716D6C"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:paddingRight="@dimen/_75sdp"
+        android:paddingLeft="@dimen/_10sdp"/>
+    <EditText
+        android:id="@+id/PinnumEdt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:hint="Pincode number"
+        android:background="@drawable/edtbg_layout"
+        android:drawableTint="#716D6C"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:paddingRight="@dimen/_75sdp"
+        android:paddingLeft="@dimen/_10sdp"/>
+
+
+</LinearLayout>
